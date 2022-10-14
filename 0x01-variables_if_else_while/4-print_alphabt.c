@@ -2,92 +2,46 @@
 
 
 
-
-
-
-
 /**
- *
- *  * main - program that prints the alphabet in lowercase, followed by a new line
- *
- *   * You can only use the putchar
- *
- *    * Return: 0
- *
- *     */
-
-
-
-
+ * main - program that prints the alphabet in lowercase, followed by a new line
+ * You can only use the putchar
+ * Return: 0
+ */
 
 
 
 int main(void)
 
-
-
 {
 
+	int lw = 'a';
 
+	while (lw <= 'z')
 
-		int lw = 'a';
+	{
 
+		if (lw == 'e' || lw == 'q')
 
+		{
 
-			while (lw <= 'z')
+			lw += 1;
 
+		}
 
+		else
 
-					{
+		{
 
+			putchar(lw);
 
+			lw += 1;
 
-								if (lw == 'e' || lw == 'q')
+		}
 
+	}
 
+	putchar('\n');
 
-											{
-
-
-
-															lw += 1;
-
-
-
-																	}
-
-
-
-										else
-
-
-
-													{
-
-
-
-																	putchar(lw);
-
-
-
-																				lw += 1;
-
-
-
-																						}
-
-
-
-											}
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
-
-
+	return (0);
 
 }
