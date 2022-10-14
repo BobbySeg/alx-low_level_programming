@@ -2,88 +2,44 @@
 
 
 
-
-
-
-
 /**
- *
- *  * main - program that prints the alphabet in lowercase, and then in uppercase,
- *
- *   * You can only use the putchar
- *
- *    * Return: 0
- *
- *     */
-
-
-
-
+ * main - program that prints the alphabet in lowercase, and then in uppercase,
+ * You can only use the putchar
+ * Return: 0
+ */
 
 
 
 int main(void)
 
-
-
 {
 
+	int lw = 'a';
 
+	int up = 'A';
 
-		int lw = 'a';
+	while (lw <= 'z')
 
+	{
 
+		putchar(lw);
 
-			int up = 'A';
+		lw += 1;
 
+	}
 
+	while (up <= 'Z')
 
-				while (lw <= 'z')
+	{
 
+		putchar(up);
 
+		up += 1;
 
-						{
+	}
 
+	putchar('\n');
 
-
-									putchar(lw);
-
-
-
-											lw += 1;
-
-
-
-												}
-
-
-
-					while (up <= 'Z')
-
-
-
-							{
-
-
-
-										putchar(up);
-
-
-
-												up += 1;
-
-
-
-													}
-
-
-
-						putchar('\n');
-
-
-
-							return (0);
-
-
+	return (0);
 
 }
