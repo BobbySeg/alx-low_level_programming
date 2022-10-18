@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - function that prints the alphabet, lowercase
- * You can only use _putchar twice in your code
- * Return: nothing.
+ * print_alphabet -  a function that prints the alphabet, in lowercase
+ * followed by a new line
+ * Return:nothing
  */
 void print_alphabet(void)
 {
-	char c;
+	int low;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+	for (low = 'a'; low <= 'z'; low++)
+	_putchar(low);
 	_putchar('\n');
+			}
