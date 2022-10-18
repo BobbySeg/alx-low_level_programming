@@ -4,13 +4,13 @@
 
 /**
  *
- *  main - program that prints putchar.
+ *  *main - program that prints putchar.
  *
- *   
+ *   *
  *
- *     Return: int
+ *    * Return: int
  *
- */
+ *     */
 
 
 
